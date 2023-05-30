@@ -1,0 +1,46 @@
+.logo a {
+    font-size: 24px;
+    font-weight: 750;
+    color: #F9FAF8;
+  }
+
+.heronav, .footer {
+    background-color: #1F2937;
+    padding: 0% 15%;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 25px 15%;
+    display: flex;
+}
+
+.hero ul{
+    flex-direction: column;
+    justify-content: left;
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.herosecondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#leftcontent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+#rightcontent {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+
+}
