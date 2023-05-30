@@ -48,11 +48,17 @@
     width: 50%;
 
 }
-.rowflex{
+.infoflex {
+    padding-bottom: 92px;
+}
+.rowflex {
     margin:auto;
     display: flex;
     justify-content: center;
     flex: 1;
     flex-wrap: wrap;
     gap: 50px;
+}
+.quotes {
+    background-color: #E5E7EB;
 }
