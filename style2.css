@@ -4,18 +4,22 @@
     color: #F9FAF8;
   }
 
+.hero {
+    background-color: #1F2937
+}
+
 .heronav, .footer {
     background-color: #1F2937;
     padding: 0% 15%;
 }
 
-.hero {
+.herobottom {
     background-color: #1F2937;
     padding: 25px 15%;
     display: flex;
 }
 
-.hero ul{
+.herobottom ul{
     flex-direction: column;
     justify-content: left;
 }
@@ -43,4 +47,12 @@
     align-items: center;
     width: 50%;
 
+}
+.rowflex{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 50px;
 }
