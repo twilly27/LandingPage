@@ -1,2 +1,2 @@
 # LandingPage
-Practise Landing Pae
+Practise Landing Page
