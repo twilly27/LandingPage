@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="style2.css" />
+    <!-- Load Search Icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>My First Webpage!</title>
     <style>
       ul {
@@ -24,6 +27,13 @@
               <a href="/">
                 CoinTracker
               </a>
+            </li>
+            <li class="herosecondary">
+              <!-- The form -->
+              <form class="searchbox" action="action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
             </li>
             <li class="herosecondary">
               <a href="">

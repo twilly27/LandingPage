@@ -62,3 +62,7 @@
 .quotes {
     background-color: #E5E7EB;
 }
+.searchbox {
+    margin: auto;
+    max-width: 300px;
+}
